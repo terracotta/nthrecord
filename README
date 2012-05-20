@@ -1,0 +1,10 @@
+Nthrecord is a simple tool for querying a database through ActiveRecord and returning every nth record.
+
+Installation: 
+
+gem install nthrecord
+
+Example:
+
+# query every third record
+@users = User.nthrecord(3)
